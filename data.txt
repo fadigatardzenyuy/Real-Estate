@@ -1,0 +1,105 @@
+home layout{
+width: Hug (1,440px)px;
+height: Hug (4,813px)px;
+top: -2815px;
+left: -3848px;
+gap: 0px;
+opacity: 0px;}
+
+header {
+width: Fixed (1,296px)px;
+height: Fixed (72px)px;
+gap: 0px;
+justify: space-between;
+opacity: 0px;}
+
+Hero{
+width: Hug (1,296px)px;
+height: Hug (725px)px;
+padding: 0px 0px 60px 0px;
+gap: 0px;
+opacity: 0px;
+ img+form{
+width: Hug (1,296px)px;
+height: Hug (665px)px;
+gap: 0px;
+opacity: 0px;
+}
+
+
+Discovery property{
+width: Hug (1,440px)px;
+height: Hug (1,143px)px;
+padding: 0px 72px 60px 72px;
+gap: 40px;
+opacity: 0px;
+ text{
+width: Hug (732px)px;
+height: Hug (69px)px;
+gap: 24px;
+opacity: 0px;
+  cards{
+width: Hug (1,296px)px;
+height: Hug (974px)px;
+gap: 24px;
+opacity: 0px;
+card1{
+width: Hug (416px)px;
+height: Hug (475px)px;
+gap: 0px;
+opacity: 0px;
+img{
+width: Fill (416px)px;
+height: Fixed (280px)px;
+padding: 24px 0px 0px 0px;
+gap: 10px;
+border-radius: 12px 12px 0px 0px;
+opacity: 0px;
+text{
+width: Fixed (416px)px;
+height: Hug (195px)px;
+padding: 24px 0px 0px 0px;
+gap: 20px;
+border-radius: 0px 0px 12px 12px;
+opacity: 0px;
+
+}
+
+Putting plan in action{
+width: Fixed (1,440px)px;
+height: Hug (520px)px;
+padding: 100px 170px 100px 182px;
+gap: 10px;
+opacity: 0px;
+background: #100E2C;
+  text {
+width: Hug (1,048px)px;
+height: Hug (320px)px;
+gap: 134px;
+opacity: 0px;
+}
+
+what our client say{
+width: Fill (1,440px)px;
+height: Hug (600px)px;
+padding: 100px 292px 60px 182px;
+gap: 134px;
+opacity: 0px;
+  text{
+width: Fixed (416px)px;
+height: Hug (291px)px;
+gap: 20px;
+opacity: 0px;
+
+img{
+width: 416px;
+height: 440px;
+gap: 0px;
+border-radius: 12px 0px 0px 0px;
+opacity: 0px;
+angle: -180 deg;
+
+
+
+
+

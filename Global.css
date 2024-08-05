@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: Hug (1, 440px)px;
+    height: Hug (815px)px;
+    padding: 60px 72px 60px 72px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    opacity: 0px;
+
+}
+
+/* nava */
+header nav {
+    width: Fixed (1, 296px)px;
+    height: Fixed (72px)px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* logo */
+nav .logo {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    width: Fixed (247px)px;
+    height: Hug (24px)px;
+    gap: 4px;
+}
+
+/* log image */
+nav img {
+    width: 24px;
+    height: 24px;
+    gap: 0px;
+    border: 2px 0px 0px 0px;
+    top: 24px;
+
+}
+
+.logo p {
+    font-family: Gantari;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.2px;
+}
+
+/* menu */
+nav .menu ul {
+    display: flex;
+    width: Hug (327px)px;
+    height: Hug (23px)px;
+    gap: 24px;
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000000;
+    border-bottom: 2px solid;
+    font-family: Gantari;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+}
+
+/* login -phone*/
+nav .login-phone {
+    display: flex;
+    width: Hug (244px)px;
+    height: Hug (24px)px;
+    gap: 24px;
+}
+
+/* login */
+.login-phone .login {
+    width: Hug (73px)px;
+    height: Hug (24px)px;
+    gap: 8px;
+    display: flex;
+}
+
+/* phone */
+.login-phone .phone {
+    width: Hug (73px)px;
+    height: Hug (24px)px;
+    gap: 8px;
+    display: flex;
+}
+
+/* end of header */
+
+/* Hero secton */
+.Hero {
+    /* width: Hug (1, 296px)px;
+    height: Hug (725px)px; */
+    padding: 0px 0px 60px 0px;
+    position: relative;
+
+}
+
+.Hero .img-text {
+    background-image: url("./Assets/img/Img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Hero .img-text {
+    height: 100px;
+    padding: 300px 148px 186px 148px;
+    border-radius: 20px;
+
+}
+
+.img-text .text {
+    gap: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #FFFFFF;
+}
+
+.text h1 {
+    font-family: Gantari;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    height: 20px;
+}
+
+.text p {
+    width: 801px;
+    height: 54px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+
+form {
+    width: 60%;
+    padding: 20px;
+    gap: 12px;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 32px 0px #00000026;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 5px;
+    left: 15%;
+}
+
+
+form .search {
+    width: 150px;
+    height: 50px;
+    padding: 2px 20px 2px 20px;
+    gap: 10px;
+    border-radius: 6px;
+    background: #0057FF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    padding: 10px;
+    color: #000000;
+}
+
+form img {
+    height: 24px;
+    width: 24px;
+}
+
+/* end of hero section */
+
+/* <!-- Discover your featured property --> */
+.Discover-features {
+    height: 1000px;
+    padding: 0px 72px 60px 72px;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Discover-features .text-discover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.card {
+    max-width: 100%;
+    max-height: 100%;
+    padding: 0px 72px 60px 72px;
+    margin-top: -20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
+    gap: 10px;
+
+
+
+}
+
+.card .card1 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 300px;
+    height: 450px;
+}
+
+.card1 img {
+    width: 250px;
+    height: 200px;
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+.card-text .text1 {
+
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+
+}
+
+.card-text {
+    width: 200px;
+    padding-top: 8px;
+    gap: 20px;
+    border-radius: 0px 0px 12px 12px;
+
+
+}
+
+.text1 h3 {
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+
+}
+
+.icon-1 {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 0px 0px 0px;
+    gap: 10px;
+    justify-content: space-between;
+
+}
+
+.card1 .text-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8px;
+    border-top: 1px solid #000000;
+    /* width: 300px; */
+    gap: 15px;
+    /* border: 1px solid; */
+}
+
+.text-icons .icon-1-1 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.icon-1-1 img {
+    width: 24px;
+    height: 24px;
+}
+
+
+/* putting action  */
+.Plan-action {
+    width: Fixed (1, 440px);
+    height: Hug (520px);
+    background: #100E2C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    padding: 80px;
+}
+
+.Plan-action .img-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.Plan-action .imgtext{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.Plan-action .img-left{
+    width: 50%;
+}
+
+.Plan-action img {
+    width: 200px;
+    height: 200px;
+    border-radius: 12px 0px 0px 0px;
+}
